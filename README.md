@@ -24,12 +24,6 @@ RegisterNumber:212221040125
 */
 ```
 
-Program to implement the linear regression using gradient descent.
-
-Developed by: R.K Pragalyaa shree
-
-RegisterNumber:  212221040125
-
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -108,7 +102,6 @@ print("For population = 35,000, we predict a profit of $"+str(round(predict1,0))
 predict2=predict(np.array([1,7]),theta)*10000
 print("Profit for the population 70,000:")
 print("For population = 70,000, we predict a profit of $"+str(round(predict2,0)))
-
 ## Output:
 ## Profit prediction graph:
 <img width="435" alt="ml 1" src="https://user-images.githubusercontent.com/128135934/229811645-f92c3d23-ad94-4f94-bbf3-074c78759fe7.png">
